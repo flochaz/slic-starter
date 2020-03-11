@@ -8,7 +8,7 @@ try {
 export default {
   region: config.deployment.region,
   nsDomain: config.domainConfig.nsDomain,
-  runtime: 'nodejs:8.10',
+  runtime: 'nodejs:10.x',
   sourceRepoOwner: config.sourceRepo.owner,
   sourceRepoName: config.sourceRepo.name,
   sourceBranch: config.sourceRepo.branch,
